@@ -122,11 +122,13 @@ private:
 //        int ballx =ball->getX();
 //        int bally = ball->getY();
 //        int player1x = player1->getX();
-//        int player2x = player2->getX();
-        int player1y = player1->getY();
+        //int player2x = player2->getX();
+            int player1y = player1->getY();
         int player2y = player2->getY();
+
+//        int player2x = player2->getX
         if(quit==false){
-            char current = _getch();
+            char current = getchar();
             if(current == 'w'){
                 if(player1y>0){
                     player1->moveUp();
