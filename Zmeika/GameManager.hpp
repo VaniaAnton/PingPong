@@ -25,7 +25,7 @@ private:
     public:
     bool quit;
     GameManager(int w, int h){
-        srand(time(NULL));
+        srand(time_t(NULL));
         quit = false;
         score1=score2=0;
         width = w; height = h;
